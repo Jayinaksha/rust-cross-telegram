@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "core",
+    "desktop",
+    "web",
+    "android"
+]
+
+resolver = "2"
