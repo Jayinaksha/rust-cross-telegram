@@ -22,6 +22,9 @@ web-sys = { version = "0.3", features = [
     "RequestInit",
     "Response",
 ] }
+glam = "0.27"
+rand = { version = "0.8", features = ["getrandom"] }
+getrandom = { version = "0.2", features = ["js"] }
 
 # Tokio ONLY for native builds
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
