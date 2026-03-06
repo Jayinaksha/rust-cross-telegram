@@ -3,7 +3,14 @@ members = [
     "core",
     "desktop",
     "web",
-    "android"
+    "android",
+]
+default-members = [
+    "core",
+    "desktop",
 ]
 
 resolver = "2"
+
+[patch.crates-io]
+egui-winit = { path = "egui-winit-patched" }
