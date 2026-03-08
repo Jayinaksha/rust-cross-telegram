@@ -61,8 +61,8 @@ impl Default for AppState {
     fn default() -> Self {
         Self {
             message: String::new(),
-            token: "7772114599:AAEgZnG16-dAaY1_K8ag5zckjD8nLllu-J8".to_string(),
-            chat_id: "1751201457".to_string(),
+            token: "TOKEN_ID".to_string(),
+            chat_id: "CHAT_ID".to_string(),
             text_field_focused: false,
             text_changed_externally: false,
 
