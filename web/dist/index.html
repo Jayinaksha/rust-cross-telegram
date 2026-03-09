@@ -22,7 +22,7 @@ html, body {
 }
 </style>
 
-<link rel="modulepreload" href="/web-2657fcac8a1a3ebb.js" crossorigin="anonymous" integrity="sha384-rTcaec7Pj3auzDEZ1PEc9I+3+F2xDpe0h33wxO+3sZMYZwaQhcXWs284Ov7HZ+6Q"><link rel="preload" href="/web-2657fcac8a1a3ebb_bg.wasm" crossorigin="anonymous" integrity="sha384-x0D+fH4UqSO5QSWVGC/IFUN67kXFXX+PsjGlYkTB0cXe3bi87cmjRqLXXs2ofJIP" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/web-8b43b22fd4101c8e.js" crossorigin="anonymous" integrity="sha384-HKCFJV2RHGXGVV5MyEjRdeyDw6sSzCLp/VO/qmCywdVl+q9ftPbAYWFT/7e+VIpD"><link rel="preload" href="/web-8b43b22fd4101c8e_bg.wasm" crossorigin="anonymous" integrity="sha384-A+93XBQGKFsVOmVWOe0eLyu7z5EtKOysBNChtISUNYC+etPO2isqMKzzx9MjURQ/" as="fetch" type="application/wasm"></head>
 
 <body>
 
@@ -31,8 +31,8 @@ html, body {
 <!-- Trunk will build the Rust WASM app -->
 
 <script type="module">
-import init, * as bindings from '/web-2657fcac8a1a3ebb.js';
-const wasm = await init({ module_or_path: '/web-2657fcac8a1a3ebb_bg.wasm' });
+import init, * as bindings from '/web-8b43b22fd4101c8e.js';
+const wasm = await init({ module_or_path: '/web-8b43b22fd4101c8e_bg.wasm' });
 
 
 window.wasmBindings = bindings;
