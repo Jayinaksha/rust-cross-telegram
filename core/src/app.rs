@@ -159,8 +159,8 @@ pub struct AppState {
 
 impl Default for AppState {
     fn default() -> Self {
-        let token = "7772114599:AAEgZnG16-dAaY1_K8ag5zckjD8nLllu-J8".to_string();
-        let chat_id = "1751201457".to_string();
+        let token = "TOKEN_ID".to_string();
+        let chat_id = "CHAT_ID".to_string();
         Self {
             message: String::new(),
             token: token.clone(),
